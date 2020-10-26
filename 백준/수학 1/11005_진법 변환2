@@ -1,0 +1,18 @@
+//#include<stdio.h>
+#include<string>
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main(){
+    int a,b;    cin >>a>>b;
+    string ans = "";
+    while(a!=0){
+        int r = a%b;
+        if (r <10)    ans += (char)(r+'0');
+        else          ans += (char)(r-10+'A');
+        a=a/b;
+    }
+    reverse(ans.begin(),ans.end());
+    cout << ans << '\n';
+    return 0;
+}
