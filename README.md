@@ -22,9 +22,11 @@ https://swexpertacademy.com/main/main.do
   
   pop : 가장 최근에 넣은(가장 위에 있는) 자료를 꺼낸다.
   
-  자바와 c++에서 명령어가 서로 다름!!
+  ***자바와 c++에서 명령어가 서로 다름!!***
 
 ## 큐
+
+  뒤에서 자료를 넣고 앞에서만 뺼 수 있는 선형 구조(FIFO - First In First Out)
 
 ## 링크드리스트
 
@@ -42,7 +44,24 @@ https://swexpertacademy.com/main/main.do
   
   그래프 탐색 기법 : DFS, BFS, 다익스트라, 플로이드와샬
   
+  그래프 탐색 유형 : 미로, 정점 이동
+  
 ## DFS/BFS
+
+  ### DFS(Depth First Search : 깊이 우선 탐색)
+  
+  현재 정점에서 연결된 정점을 하나 골라서 파고들수 있는 최대한 깊게 파고 들어가며 탐색
+  
+  Stack을 이용 or 재귀를 이용
+  
+  재귀를 이용하면 매우 간단하게 짤 수 있음.
+  
+  ### BFS(Breadth First Search : 너비 우선 탐색)
+  
+  현재 정점과 연결된 정점들에 대해 우선적으로 넓게 탐색
+  
+  Queue를 이용
+  
 
 ## 그리디 알고리즘
 
