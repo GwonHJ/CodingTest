@@ -1,5 +1,11 @@
 # 코딩테스트 대비 DML정리
 
+코딩테스트 대비용 문제 사이트
+
+https://programmers.co.kr/learn/challenges?selected_part_id=17046
+
+여기에 있는 사이트를 기준으로 정리
+
 ----------------------------
 
 
@@ -109,7 +115,31 @@ AS '~' : 열을 ~로 정의
 ## JOIN
    :관련된 두 테이블을 합치기
    
-   -INNER JOIN
+   SELECT 테이블이름.컬럼이름 FROM 테이블이름\
+   LEFT JOIN 합칠테이블이름 ON 테이블이름.기준컬럼 = 합칠테이블이름.기준컬럼\
+   
+   JOIN 종류
+   
+   1. INNER JOIN
+   2. OUTER JOIN
+   3. CROSS JOIN
+   4. FULL OUTER JOIN
+   5. SELF JOIN
+
+   ex)
+        
+        SELECT ANIMAL_OUTS.ANIMAL_ID, ANIMAL_OUTS.NAME
+        FROM ANIMAL_OUTS
+        LEFT JOIN ANIMAL_INS ON ANIMAL_INS.ANIMAL_ID = ANIMAL_OUTS.ANIMAL_ID
+        WHERE ANIMAL_INS.ANIMAL_ID IS NULL
+        ORDER BY ANIMAL_OUTS.ANIMAL_ID
+        
+        
+        SELECT ANIMAL_INS.ANIMAL_ID, ANIMAL_INS.ANIMAL_TYPE, ANIMAL_INS.NAME
+        FROM ANIMAL_INS
+        INNER JOIN ANIMAL_OUTS ON ANIMAL_INS.ANIMAL_ID = ANIMAL_OUTS.ANIMAL_ID
+        WHERE ANIMAL_INS.SEX_UPON_INTAKE != ANIMAL_OUTS.SEX_UPON_OUTCOME
+        ORDER BY ANIMAL_INS.ANIMAL_ID;
    
          
 ----------------------------------------
