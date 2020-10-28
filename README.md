@@ -94,7 +94,7 @@ https://swexpertacademy.com/main/main.do
   재귀를 이용하면 매우 간단하게 짤 수 있음.
 
   ```cpp
-vector<vector<int> > graph;
+  vector<vector<int> > graph;
   bool visited[N];
   void dfs(int here){
         visited[here] = true;
@@ -117,8 +117,33 @@ vector<vector<int> > graph;
   현재 정점과 연결된 정점들에 대해 우선적으로 넓게 탐색
   
   Queue를 이용
-  
-
+```cpp
+	
+	vector<vector<int> > graph;
+	//vector<int> order; 정점의 방문순서가 필요할때
+	bool visited[N];
+  void bfs(int start){
+		queue<int> q;
+		visited[start] = true;
+		q.push(start);
+		while(!q.empty()){
+			int here = q.front();
+			q.pop();
+			//order.push_back(here);
+			for(int i = 0; i<graph[here].size(); i++){
+				int there = graph[here][i];
+				visited[there] = true;
+			}
+		}
+  }
+                                        
+  int main(){
+    for(int i = 0; i<graph.size(); i++){
+      if(!visited[i])
+        bfs(i);
+    }
+  }
+```
 ## 그리디 알고리즘
 
   욕심쟁이 알고리즘
