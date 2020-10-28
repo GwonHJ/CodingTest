@@ -86,6 +86,8 @@ https://swexpertacademy.com/main/main.do
   
 ## DFS/BFS
 
+  코딩테스트에서 난이도 높은 문제로 그래프 탐색이 많이 나옴! DFS함수와 BFS함수는 바로 짤 수 있을 만큼 익힐것!
+ 
   ### DFS(Depth First Search : 깊이 우선 탐색)
   
   현재 정점에서 연결된 정점을 하나 골라서 파고들수 있는 최대한 깊게 파고 들어가며 탐색
