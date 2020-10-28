@@ -15,7 +15,9 @@ https://swexpertacademy.com/main/main.do
 
 
 ## 스택
-  
+
+  ![stack](https://user-images.githubusercontent.com/45057466/97437095-58140e00-1966-11eb-9b0a-b5e92574001c.png)
+
   한 쪽 끝에서만 자료를 넣고 뺄 수 있는 선형 구조(LIFO - Last In First Out)
   
   push : 자료를 밀어 넣는다.
