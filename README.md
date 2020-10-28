@@ -92,6 +92,27 @@ https://swexpertacademy.com/main/main.do
   Stack을 이용 or 재귀를 이용
   
   재귀를 이용하면 매우 간단하게 짤 수 있음.
+  <pre>
+  <code>
+  vector<vector<int> > graph;
+  bool visited[N];
+  void dfs(int here){
+    visited[here] = true;
+    for( int i = 0; i<graph[here].size(); i++){
+      int there = graph[here][i];
+      int(!visited[there])
+         dfs(there);
+    }
+  }
+                                        
+  int main(){
+    for(int i = 0; i<graph.size(); i++){
+      if(!visited[i])
+        dfs(i);
+    }
+  }
+  </code>
+  </pre>
   
   ### BFS(Breadth First Search : 너비 우선 탐색)
   
