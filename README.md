@@ -93,6 +93,7 @@ https://swexpertacademy.com/main/main.do
   
   재귀를 이용하면 매우 간단하게 짤 수 있음.
 
+  <재귀를 이용한 DFS 함수>
   ```cpp
   vector<vector<int> > graph;
   bool visited[N];
@@ -117,6 +118,9 @@ https://swexpertacademy.com/main/main.do
   현재 정점과 연결된 정점들에 대해 우선적으로 넓게 탐색
   
   Queue를 이용
+  
+  
+  <Queue를 이용한 BFS 함수>
 ```cpp
 	
 vector<vector<int> > graph;
