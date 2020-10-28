@@ -11,7 +11,7 @@ https://programmers.co.kr/
 https://swexpertacademy.com/main/main.do
 
 --------------------------------------------------------------
-# 알고리즘 정리
+# 자료구조 & 알고리즘 간단 정리
 
 
 ## 스택
@@ -27,6 +27,8 @@ https://swexpertacademy.com/main/main.do
   
     
 ## 큐
+
+
 
 ![queue](https://user-images.githubusercontent.com/45057466/97437888-7595a780-1967-11eb-9c4e-5967beff6dac.png)
 
