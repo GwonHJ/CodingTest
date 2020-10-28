@@ -92,9 +92,9 @@ https://swexpertacademy.com/main/main.do
   Stack을 이용 or 재귀를 이용
   
   재귀를 이용하면 매우 간단하게 짤 수 있음.
-  <pre>
-  <code>
-  vector<vector<int> > graph;
+
+  ```cpp
+vector<vector<int> > graph;
   bool visited[N];
   void dfs(int here){
         visited[here] = true;
@@ -111,9 +111,7 @@ https://swexpertacademy.com/main/main.do
         dfs(i);
     }
   }
-  </code>
-  </pre>
-  
+```
   ### BFS(Breadth First Search : 너비 우선 탐색)
   
   현재 정점과 연결된 정점들에 대해 우선적으로 넓게 탐색
