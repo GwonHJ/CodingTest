@@ -18,22 +18,26 @@ HAVING [그룹화한 뒤 조건]\
 LIMIT [제한할 개수]
   
   ex)
-  
-      서랍에 있는 연필 중 길이가 10cm 이상인 연필
+  ```sql
+서랍에 있는 연필 중 길이가 10cm 이상인 연필
+
       SELECT 연필 FROM 서랍
       WHERE 길이 >= 10
       
-      서랍에 있는 연필 중 길이가 10cm 이상이고 빨간색 연필
+서랍에 있는 연필 중 길이가 10cm 이상이고 빨간색 연필
       SELECT 연필 FROM 서랍
       WHERE 길이 >= 10 AND 색 = '빨간색'
+```
       
 COUNT ([셀 컬럼])\
 DISTINCT : 중복제거\
 AS '~' : 열을 ~로 정의
 
   ex)
-  
+
+  ```sql
       COUNT(DISTINCT user_id) AS 'unigue' : 중복되지 않은 user_id의 개수를 센후 unique라고 칭하겠다
+```
 
 ## GROUP BY
     ex)
@@ -45,10 +49,13 @@ AS '~' : 열을 ~로 정의
       3          login_facebook    2018-03-12    
       
       ---------------------------------------
+ ```sql
+        
       SELECT event, event_date, COUNT(DISTINCT user_id) AS 'unique'
       FROM A
       GROUP BY event, event_date
       ORDER BY event_date ASC
+```
       
       -----[실행결과]------------------------
       
@@ -83,34 +90,39 @@ AS '~' : 열을 ~로 정의
    IS NULL : 값이 비어있는 경우
       
       ex)
-        
-        키가 180cm이상 183cm이하인 사람
+  ```sql
+   키가 180cm이상 183cm이하인 사람
         SELECT name, height FROM a
         WHERE height BETWEEN 180 AND 183
         
-        이름이 홍길동, 김철수, 라이언에 해당하는 사람
+   이름이 홍길동, 김철수, 라이언에 해당하는 사람
         WHERE name IN ('홍길동', '김철수', '라이언')        
         
         WHERE name LIKE '김%'
-         => 김철수, 김밥, 김밥은맜잇어, 김
+         -- 김철수, 김밥, 김밥은맜잇어, 김
         WHERE name LIKE '_길%'
-         => 홍길동, 이길에서, 저길, 요길에서보자 ...
+         -- 홍길동, 이길에서, 저길, 요길에서보자 ...
         WHERE name LIKE '%이%'
-         => 라이언, 이씨, 이름이뭐에요, 이, 이빨이빠졌어요, 아름다운이땅에...
+         -- 라이언, 이씨, 이름이뭐에요, 이, 이빨이빠졌어요, 아름다운이땅에...
     
         WHERE name LIKE '_길%' AND NOT NAME LIKE '%에'
-         => 홍길동, 저길 ...
+         -- 홍길동, 저길 ...
          
+```        
+     
          
  ## 서브쿼리
   : 괄호를 이용해서 조건안에 조건을 넣을 수 있음
    
    ex)
       
-        홍길동보다 키가 큰 사람
+```sql
+   
+     홍길동보다 키가 큰 사람
         SELECT name, height FROM a
         WHERE height > (SELECT height FROM a WHERE NAME = '홍길동')
-        
+         
+```              
         
 ## JOIN
    :관련된 두 테이블을 합치기
@@ -127,7 +139,8 @@ AS '~' : 열을 ~로 정의
    5. SELF JOIN
 
    ex)
-        
+ ```sql
+   
         SELECT ANIMAL_OUTS.ANIMAL_ID, ANIMAL_OUTS.NAME
         FROM ANIMAL_OUTS
         LEFT JOIN ANIMAL_INS ON ANIMAL_INS.ANIMAL_ID = ANIMAL_OUTS.ANIMAL_ID
@@ -140,6 +153,9 @@ AS '~' : 열을 ~로 정의
         INNER JOIN ANIMAL_OUTS ON ANIMAL_INS.ANIMAL_ID = ANIMAL_OUTS.ANIMAL_ID
         WHERE ANIMAL_INS.SEX_UPON_INTAKE != ANIMAL_OUTS.SEX_UPON_OUTCOME
         ORDER BY ANIMAL_INS.ANIMAL_ID;
+         
+```   
+        
    
          
 ----------------------------------------
