@@ -126,5 +126,6 @@ https://swexpertacademy.com/main/main.do
 
 -string 함수
 
-![LPf](https://user-images.githubusercontent.com/45057466/97435875-6cefa200-1964-11eb-83cf-8f7fef290ba9.png)
-![LPF2](https://user-images.githubusercontent.com/45057466/97435898-75e07380-1964-11eb-818a-0b50b6210158.png)
+
+
+![판다](https://user-images.githubusercontent.com/45057466/97436199-f1422500-1964-11eb-9876-08a921d1df87.png)
