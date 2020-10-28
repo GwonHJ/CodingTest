@@ -56,6 +56,7 @@ https://swexpertacademy.com/main/main.do
 
 ## sort
 
+
 ## 그래프 정의
   
   '정점(node)'과 '간선(edge)'으로 이루어진 자료구조
@@ -67,6 +68,17 @@ https://swexpertacademy.com/main/main.do
   그래프 탐색 기법 : DFS, BFS, 다익스트라, 플로이드와샬
   
   그래프 탐색 유형 : 미로, 정점 이동
+  
+## 트리
+
+  그래프의 한 종류, 계층 구조를 나타내기 좋음.
+  
+  1. 1개의 루트 노드를 가짐
+  
+  2. 0개 이상의 서로 다른 자식 노드를 가짐
+  
+  3. 두 개의 노드를 연결하는 간선은 하나만 존재
+  
   
 ## DFS/BFS
 
@@ -110,8 +122,6 @@ https://swexpertacademy.com/main/main.do
   
   2. Top-down : 재귀 함수를 이용해서 구현, 큰 문제를 풀 때 작은 문제를 풀지 않았다면 그때 작은 문제 푸는 방법
   
-## 트리
-
 ## 브루트포스
 
 ## 시뮬레이션
