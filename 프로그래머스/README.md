@@ -4,7 +4,7 @@
 
 https://programmers.co.kr/
 
-***SQL 명령어는 SQL폴더의 README참조
+***SQL 명령어는 SQL폴더의 README참조***
 
 --------------------------------------------
 ## 문제목록
