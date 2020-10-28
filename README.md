@@ -119,22 +119,22 @@ https://swexpertacademy.com/main/main.do
   Queue를 이용
 ```cpp
 	
-	vector<vector<int> > graph;
-	//vector<int> order; 정점의 방문순서가 필요할때
-	bool visited[N];
+vector<vector<int> > graph;
+//vector<int> order; 정점의 방문순서가 필요할때
+bool visited[N];
   void bfs(int start){
-		queue<int> q;
-		visited[start] = true;
-		q.push(start);
-		while(!q.empty()){
-			int here = q.front();
-			q.pop();
-			//order.push_back(here);
-			for(int i = 0; i<graph[here].size(); i++){
-				int there = graph[here][i];
-				visited[there] = true;
-			}
+	queue<int> q;
+	visited[start] = true;
+	q.push(start);
+	while(!q.empty()){
+		int here = q.front();
+		q.pop();
+		//order.push_back(here);
+		for(int i = 0; i<graph[here].size(); i++){
+			int there = graph[here][i];
+			visited[there] = true;
 		}
+	}
   }
                                         
   int main(){
