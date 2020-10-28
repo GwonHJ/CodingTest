@@ -97,18 +97,18 @@ https://swexpertacademy.com/main/main.do
   <재귀를 이용한 DFS 함수>
   ```cpp
   vector<vector<int> > graph;
-  bool visited[N];
+  bool visited[N];//노드에 방문했는지 여부 확인
   void dfs(int here){
-        visited[here] = true;
+        visited[here] = true; //노드에 방문 표시
         for( int i = 0; i<graph[here].size(); i++){
-              int there = graph[here][i];
-              int(!visited[there])
-                    dfs(there);
+              int there = graph[here][i]; // 현재 노드와 연결된 노드를 there로 가져온다
+              int(!visited[there]) // 만약 연결된 노드에 방문한 적이 없다
+                    dfs(there);//there노드 방문
         }
   }
                                         
   int main(){
-    for(int i = 0; i<graph.size(); i++){
+    for(int i = 0; i<graph.size(); i++){//만약 모든 노드가 다 연결 되어있다면 바로 dfs(start)하면 되지만 아닐 모든 노드가 연결되어있지않으면 확인 필요
       if(!visited[i])
         dfs(i);
     }
@@ -129,15 +129,15 @@ vector<vector<int> > graph;
 bool visited[N];
   void bfs(int start){
 	queue<int> q;
-	visited[start] = true;
-	q.push(start);
+	visited[start] = true; // 방문 표시
+	q.push(start);//시작 노드를 큐에 푸쉬
 	while(!q.empty()){
-		int here = q.front();
+		int here = q.front();//방문할 노드를 here로 받아옴
 		q.pop();
-		//order.push_back(here);
+		//order.push_back(here);// 정점 방문 순서
 		for(int i = 0; i<graph[here].size(); i++){
-			int there = graph[here][i];
-			visited[there] = true;
+			int there = graph[here][i];// here노드와 연결된 노드들을 queue에 넣는다
+			visited[there] = true;//노드를 
 		}
 	}
   }
