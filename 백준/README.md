@@ -7,7 +7,7 @@
 
 폴더에 들어가있지않는 코드는 백준에 분류가 안되어있는 문제입니다.
 
-알고리즘에 관한 설명의 Coding Test README.md 참조.
+알고리즘에 관한 설명의 [CodingTest의 README.md](https://github.com/GwonHJ/CodingTest/blob/main/README.md) 참조.
 
 
 ### 문제 분류
