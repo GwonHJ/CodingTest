@@ -71,6 +71,9 @@ https://swexpertacademy.com/main/main.do
   
 ## 트리
 
+  ![tree](https://user-images.githubusercontent.com/45057466/97464210-f5ca0600-1983-11eb-959b-6861c5d116aa.png)
+  
+  
   그래프의 한 종류, 계층 구조를 나타내기 좋음.
   
   1. 1개의 루트 노드를 가짐
