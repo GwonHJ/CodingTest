@@ -17,7 +17,7 @@ https://swexpertacademy.com/main/main.do
 ## 스택
 
 
-![stack](https://user-images.githubusercontent.com/45057466/97437892-77f80180-1967-11eb-9406-d848a0ece78b.png)
+![stack](https://user-images.githubusercontent.com/45057466/97438280-ee94ff00-1967-11eb-9755-9dbfab889975.png)
 
   한 쪽 끝에서만 자료를 넣고 뺄 수 있는 선형 구조(LIFO - Last In First Out)
   
@@ -30,7 +30,7 @@ https://swexpertacademy.com/main/main.do
 
 
 
-![queue](https://user-images.githubusercontent.com/45057466/97437888-7595a780-1967-11eb-9c4e-5967beff6dac.png)
+![queue](https://user-images.githubusercontent.com/45057466/97438299-f3f24980-1967-11eb-8ee6-a65bcff7a813.png)
 
   뒤에서 자료를 넣고 앞에서만 뺼 수 있는 선형 구조(FIFO - First In First Out)
   
