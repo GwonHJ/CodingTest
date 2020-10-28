@@ -129,6 +129,8 @@
     [11725_트리의 부모 찾기.cpp](https://github.com/GwonHJ/CodingTest/blob/main/%EB%B0%B1%EC%A4%80/%ED%8A%B8%EB%A6%AC1/11725_%ED%8A%B8%EB%A6%AC%EC%9D%98%20%EB%B6%80%EB%AA%A8%20%EC%B0%BE%EA%B8%B0.cpp)
     [1991_트리 순회.cpp](https://github.com/GwonHJ/CodingTest/blob/main/%EB%B0%B1%EC%A4%80/%ED%8A%B8%EB%A6%AC1/1991_%ED%8A%B8%EB%A6%AC%20%EC%88%9C%ED%9A%8C.cpp)
 
+- 분류없음
+
     [13458_시험 감독.cpp](https://github.com/GwonHJ/CodingTest/blob/main/%EB%B0%B1%EC%A4%80/13458_%EC%8B%9C%ED%97%98%20%EA%B0%90%EB%8F%85.cpp)
 
     [16637_괄호 추가하기.cpp](https://github.com/GwonHJ/CodingTest/blob/main/%EB%B0%B1%EC%A4%80/16637_%EA%B4%84%ED%98%B8%20%20%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0.cpp)
