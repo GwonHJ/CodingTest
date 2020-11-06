@@ -12,21 +12,46 @@ https://programmers.co.kr/
 https://swexpertacademy.com/main/main.do
 
 --------------------------------------------------------------
-# 자료구조 & 알고리즘 간단 정리
+# 코딩테스트를 위한 간단 정리!!
 
-코딩테스트를 위한 간단 정리!!
+면접을 위한 자료구조 및 알고리즘 개념정리는 [Job_interview README.md](https://github.com/GwonHJ/Job_Interview/blob/main/README.md)에 있습니다.
 
-면접을 위한 개념정리는 [Job_interview README.md](https://github.com/GwonHJ/Job_Interview/blob/main/README.md)에 있습니다.
+## vector
+
+ **메모리 크기를 동적으로 받을 수 있으나, 배열보다 속도 느림!! 코드 짤때 편하긴 하지만, 시험칠 때 주의!!**
+ 
+ vector 헤더를 추가해야함.
+ 
+ #include <vector>
+
+ **C++ vector 기본함수**
+ 
+  - vector <자료형> 변수명 : 선언
+  - begin(): beginning iterator를 반환
+  - end(): end iterator를 반환
+  - push_back(element): 벡터 제일 뒤에 원소 추가
+  - pop_back(): 벡터 제일 뒤에 원소 삭제
+  - [i]: i번째 원소를 반환
+  - front(): 첫번째 원소를 반환
+  - back(): 마지막 원소를 반환
+  - empty(): 벡터가 비어있으면 true 아니면 false를 반환
+  - size(): 벡터 원소들의 수를 반환
+ 
 
 ## 스택
 
 
 ![stack](https://user-images.githubusercontent.com/45057466/97438280-ee94ff00-1967-11eb-9755-9dbfab889975.png)
 
-  한 쪽 끝에서만 자료를 넣고 뺄 수 있는 선형 구조(LIFO - Last In First Out)\
+  한 쪽 끝에서만 자료를 넣고 뺄 수 있는 선형 구조(LIFO - Last In First Out)
+  
+  stack헤더를 추가해야함.
+  
+  #include <stack>
   
   **C++ Stack 기본 함수**
   
+  - stack <자료형> 변수명 : 선언
   - push(element): top에 원소를 추가
   - pop(): top에 있는 원소를 삭제
   - top(): top(스택의 처음이 아닌 가장 끝)에 있는 원소를 반환
@@ -40,6 +65,10 @@ https://swexpertacademy.com/main/main.do
 ![queue](https://user-images.githubusercontent.com/45057466/97438299-f3f24980-1967-11eb-8ee6-a65bcff7a813.png)
 
   뒤에서 자료를 넣고 앞에서만 뺼 수 있는 선형 구조(FIFO - First In First Out)
+  
+  queue헤더를 추가해야함.
+  
+   #include <queue>
 
   **자바와 c++에서 명령어가 서로 다름!!**
   
@@ -49,6 +78,7 @@ https://swexpertacademy.com/main/main.do
   
   **C++ Queue 기본함수**
 
+  - queue <자료형> 변수명 : 
   - push(element): 큐에 원소를 추가(뒤에)
   - pop(): 큐에 있는 원소를 삭제(앞에)
   - front(): 큐 제일 앞에 있는 원소를 반환
