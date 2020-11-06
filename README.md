@@ -21,7 +21,7 @@ https://swexpertacademy.com/main/main.do
  **메모리 크기를 동적으로 받을 수 있으나, 배열보다 속도 느림!! 코드 짤때 편하긴 하지만, 시험칠 때 주의!!**
  
  vector 헤더를 추가해야함.
- 
+
  #include <vector>
 
  **C++ vector 기본함수**
