@@ -29,16 +29,13 @@ https://swexpertacademy.com/main/main.do
   
   pop : 가장 최근에 넣은(가장 위에 있는) 자료를 꺼낸다.
   
-  **C++ 명령어**
+  **C++ Stack 기본 함수**
   
-  - 추가 및 삭제
-  	- push(element): top에 원소를 추가
-	- pop(): top에 있는 원소를 삭제
-  - 조회
-	- top(): top(스택의 처음이 아닌 가장 끝)에 있는 원소를 반환
-  - 기타
-	- empty(): 스택이 비어있으면 true 아니면 false를 반환
-	- size(): 스택 사이즈를 반환
+  - push(element): top에 원소를 추가
+  - pop(): top에 있는 원소를 삭제
+  - top(): top(스택의 처음이 아닌 가장 끝)에 있는 원소를 반환
+  - empty(): 스택이 비어있으면 true 아니면 false를 반환
+  - size(): 스택 사이즈를 반환
 
   
     
@@ -60,7 +57,15 @@ https://swexpertacademy.com/main/main.do
   
   링크드리스트를 이용해서 큐 메모리 구조를 구현이 가능하다
   
-  
+  **C++ Queue 기본함수**
+
+  - push(element): 큐에 원소를 추가(뒤에)
+  - pop(): 큐에 있는 원소를 삭제(앞에)
+  - front(): 큐 제일 앞에 있는 원소를 반환
+  - back(): 큐 제일 뒤에 있는 원소를 반환
+  - empty(): 큐가 비어있으면 true 아니면 false를 반환
+  - size(): 큐 사이즈를 반환
+
 
 ## Heap
 
@@ -68,9 +73,41 @@ https://swexpertacademy.com/main/main.do
   
   우선순위 큐 : 데이터들이 우선순위를 가지고 있고 우선순위가 높은 데이터가 먼저 나간다.
   
-  
+  **C++ 우선순위 큐 기본함수**
+   - priority_queue<T, Container, Compare>: 원하는 자료형 및 클래스 T를 통해 생성. 여기서 Container는 vector와 같은 컨테이너이며 Compare는 비교함수 클래스이다.
+   - push(element): 우선순위 큐에 원소 추가
+   - pop(): 우선순위 큐에서 top의 원소를 삭제
+   - top(): top에 있는 원소를 반환
+   - empty(): 비어있으면 true 아니면 false를 반환
+   - size(): 우선순위 큐에 포함되어 있는 원소들의 수를 반환
 
 ## Sort
+
+  sort()함수는 algorithm헤더에 포함.
+  
+  기본적으로 오름차순.
+  
+   **C++ sort기본함수**
+   
+   - sort(arr, arr+n);					//배열
+   - sort(v.begin(), v.end());				//벡터
+   - sort(v.begin(), v.end(), compare);			//사용자 정의 함수 사용
+
+   sort내림차순하는 방법
+   
+   1. sort(v.begin(), v.end(), greater<자료형>());
+   2. bool cmp(자료형 a, 자료형 b){
+   	 return a > b;
+      }
+      sort(arr, arr+n, cmp);
+      
+   묶어서 정렬하는 방법 : 구조체로 만들어서 cmp함수를 만든다
+   
+   2개일때 : pair를 사용하면 구조체를 안만들어도 정렬 **하지만 first값을 기준으로 정렬하는 것을 명심**
+   
+   3개 이상일때 : 구조체를 만들어서 cmp함수를 만든다 **cmp함수는 하나하나 다 적어야함!! 하나도 빠지지말것!!**
+
+
 
 **1. 선택 정렬(Selection Sort)**
  - 장점 : 구현이 쉽다. 공간적 효율이 좋다. 버블정렬과 시간복잡도는 같지만, 실제로 측정하면 버블보다는 조금 더 빠른 정렬방식
