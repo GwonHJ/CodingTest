@@ -18,6 +18,9 @@ https://swexpertacademy.com/main/main.do
 
 ## vector
 
+![벡터](https://user-images.githubusercontent.com/45057466/98436444-a7a0c980-211e-11eb-9c7e-cadcf74e12e5.png)
+
+
  **메모리 크기를 동적으로 받을 수 있으나, 배열보다 속도 느림!! 코드 짤때 편하긴 하지만, 시험칠 때 주의!!**
  
  vector 헤더를 추가해야함.
