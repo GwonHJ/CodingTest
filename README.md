@@ -16,7 +16,7 @@ https://swexpertacademy.com/main/main.do
 
 ## 면접을 위한 자료구조 및 알고리즘 개념정리는 [Job_interview README.md](https://github.com/GwonHJ/Job_Interview/blob/main/README.md)에 있습니다.
 
-## SQL에 대한 내용은 [SQL README.md](SQL/README.md)
+## SQL에 대한 내용은 [SQL README.md](/프로그래머스/SQL/README.md)
 
 ## vector
 
