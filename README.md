@@ -14,7 +14,9 @@ https://swexpertacademy.com/main/main.do
 --------------------------------------------------------------
 # 코딩테스트를 위한 간단 정리!!(C++함수위주)
 
-면접을 위한 자료구조 및 알고리즘 개념정리는 [Job_interview README.md](https://github.com/GwonHJ/Job_Interview/blob/main/README.md)에 있습니다.
+## 면접을 위한 자료구조 및 알고리즘 개념정리는 [Job_interview README.md](https://github.com/GwonHJ/Job_Interview/blob/main/README.md)에 있습니다.
+
+## SQL에 대한 내용은 [SQL README.md](SQL/README.md)
 
 ## vector
 
