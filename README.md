@@ -12,16 +12,13 @@ https://programmers.co.kr/
 https://swexpertacademy.com/main/main.do
 
 --------------------------------------------------------------
-# 코딩테스트를 위한 간단 정리!!(C++함수위주)
+# 코딩테스트를 위한 간단 정리!!
 
 ### 면접을 위한 자료구조 및 알고리즘 개념정리는 [Job_interview README.md](https://github.com/GwonHJ/Job_Interview/blob/main/README.md)에 있습니다.
 
 ### SQL에 대한 내용은 [SQL README.md](/프로그래머스/SQL/README.md)
 
 ## vector
-
-![벡터](https://user-images.githubusercontent.com/45057466/98436444-a7a0c980-211e-11eb-9c7e-cadcf74e12e5.png)
-
 
  **메모리 크기를 동적으로 받을 수 있으나, 배열보다 속도 느림!! 코드 짤때 편하긴 하지만, 시험칠 때 주의!!**
  
@@ -44,11 +41,6 @@ https://swexpertacademy.com/main/main.do
  
 
 ## 스택
-
-
-![stack](https://user-images.githubusercontent.com/45057466/97438280-ee94ff00-1967-11eb-9755-9dbfab889975.png)
-
-  한 쪽 끝에서만 자료를 넣고 뺄 수 있는 선형 구조(LIFO - Last In First Out)
   
   stack헤더를 추가해야함.
   
@@ -66,13 +58,6 @@ https://swexpertacademy.com/main/main.do
   
     
 ## 큐
-
-![queue](https://user-images.githubusercontent.com/45057466/97438299-f3f24980-1967-11eb-8ee6-a65bcff7a813.png)
-
-  뒤에서 자료를 넣고 앞에서만 뺼 수 있는 선형 구조(FIFO - First In First Out)
-  
-  queue헤더를 추가해야함.
-  
    #include <queue>
 
   **자바와 c++에서 명령어가 서로 다름!!**
@@ -135,8 +120,6 @@ https://swexpertacademy.com/main/main.do
   
   '정점(node)'과 '간선(edge)'으로 이루어진 자료구조
   
-  간선의 방향 유무에 따라서 단방향 그래프와 양방향 그래프(무방향 그래프)로 나뉜다.
-  
   완전탐색 문제 풀때 많이 씀
   
   그래프 탐색 기법 : DFS, BFS, 다익스트라, 플로이드와샬
@@ -145,17 +128,7 @@ https://swexpertacademy.com/main/main.do
   
 ## 트리
 
-  ![tree](https://user-images.githubusercontent.com/45057466/97464210-f5ca0600-1983-11eb-959b-6861c5d116aa.png)
-  
-  
-  그래프의 한 종류, 계층 구조를 나타내기 좋음.
-  
-  1. 1개의 루트 노드를 가짐
-  
-  2. 0개 이상의 서로 다른 자식 노드를 가짐
-  
-  3. 두 개의 노드를 연결하는 간선은 하나만 존재
-  
+
   
   **트리는 싸이클이 존재하지 않음!!!**
   
