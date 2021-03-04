@@ -41,6 +41,8 @@ public class Main {
 				ans.add(arr[2]);
 			}
 		}
+// 		System.out.println을 이용하여 출력하면 시간 초과가 발생
+// 		StringBuilder로 한번에 출력
 		StringBuilder sb = new StringBuilder();
 //		System.out.println(c_ans);
 		sb.append(c_ans).append("\n");
