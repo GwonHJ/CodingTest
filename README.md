@@ -24,7 +24,7 @@ https://swexpertacademy.com/main/main.do
  
  vector 헤더를 추가해야함.
 
- #include <vector>
+ #include <<vector>>
 
  **C++ vector 기본함수**
  
