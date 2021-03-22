@@ -11,6 +11,9 @@ https://programmers.co.kr/
 삼성 SW Expert Academy
 https://swexpertacademy.com/main/main.do
 
+정올
+http://www.jungol.co.kr/
+
 --------------------------------------------------------------
 # 코딩테스트를 위한 간단 정리!!
 
