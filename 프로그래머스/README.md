@@ -10,11 +10,11 @@ https://programmers.co.kr/
 ## 문제목록
 ### 해시
   
-  - 완주하지 못한 선수 : C++
+  - 완주하지 못한 선수 : C++, Java
   
-  - 전화번호 목록 : C++
+  - 전화번호 목록 : C++, Java
   
-  - 위장
+  - 위장 : Java
   
   - 베스트앨범
 
@@ -40,7 +40,7 @@ https://programmers.co.kr/
 
   - K번째수 : C++, Java
   
-  - 가장 큰 수 : C++
+  - 가장 큰 수 : C++, Java
   
   - H-Index
 
@@ -48,7 +48,7 @@ https://programmers.co.kr/
 
   - 모의고사 : C++, Java
   
-  - 소수 찾기 : Python
+  - 소수 찾기 : Python, Java
   
   - 카펫 : Java
 
@@ -83,6 +83,7 @@ https://programmers.co.kr/
  - 네트워크 : C++, Java
  
  - 여행경로 : C++
+ - 단어 변환 : C++, Java
 
 ### 이분탐색
 
