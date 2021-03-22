@@ -11,7 +11,6 @@ class Solution {
             if(phone_book[i+1].startsWith(phone_book[i]))
                 return false;
         }
-        
         return answer;
     }
 }
