@@ -59,14 +59,16 @@ http://www.jungol.co.kr/
   - size(): 스택 사이즈를 반환
 
   **Java Stack 기본 메소드**
-	- Stack<Element> 변수명 = new Stack<Element>(); : 선언
-	- push(Element item); : 데이터 추가
-	- pop();
-	- peek();
-	- empty();
-	- clear();
-	- size();
-	- contains(Obeject o);
+	
+	
+  - Stack<Element> 변수명 = new Stack<Element>(); : 선언
+  - push(Element item); : 데이터 추가
+  - pop();
+  - peek();
+  - empty();
+  - clear();
+  - size();
+  - contains(Obeject o);
     
 ## 큐
    #include <queue>
