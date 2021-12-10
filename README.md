@@ -89,6 +89,9 @@ http://www.jungol.co.kr/
   - empty(): 큐가 비어있으면 true 아니면 false를 반환
   - size(): 큐 사이즈를 반환
 
+  **Java Queue 기본 메소드**
+  - Queue<Element> 변수명 = new LinkedList<>(); : 선언
+ 
 
 ## Heap
 
