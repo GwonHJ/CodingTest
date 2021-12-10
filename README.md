@@ -61,7 +61,7 @@ http://www.jungol.co.kr/
   **Java Stack 기본 메소드**
 	
 	
-  - Stack<Element> 변수명 = new Stack<Element>(); : 선언
+  - Stack <Element> 변수명 = new Stack<Element>(); : 선언
   - push(Element item); : 데이터 추가
   - pop();
   - peek();
