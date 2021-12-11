@@ -118,6 +118,9 @@ http://www.jungol.co.kr/
    - sort(arr, arr+n);					//배열
    - sort(v.begin(), v.end());				//벡터
    - sort(v.begin(), v.end(), compare);			//사용자 정의 함수 사용
+	
+   **JAVA Sort**
+   - Arrays.sort(arr);
 
    sort내림차순하는 방법
    
