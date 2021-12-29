@@ -91,6 +91,10 @@ http://www.jungol.co.kr/
 
   **Java Queue 기본 메소드**
   - Queue<Element> 변수명 = new LinkedList<>(); : 선언
+  - add() : 큐의 마지막에 원소 추가
+  - poll() : 첫번째값 반환후 제거
+  - peek() : 첫번째 값을 반환
+  - clear() : 
  
 
 ## Heap
